@@ -1,0 +1,37 @@
+{
+  "name": "cesium-tianditu-terrain",
+  "private": true,
+  "version": "1.0.0",
+  "description": "天地图三维地形 ESM Provider for Cesium - 现代化重实现，彻底解决 Cannot redefine property 崩溃",
+  "type": "module",
+  "keywords": [
+    "cesium",
+    "tianditu",
+    "terrain",
+    "3d",
+    "heightmap",
+    "GIS",
+    "中国地图",
+    "天地图",
+    "地形"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx"
+  },
+  "dependencies": {
+    "cesium": "^1.140.0",
+    "pako": "^3.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite-plugin-cesium": "^1.2.23"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^6.0.0"
+  }
+}
